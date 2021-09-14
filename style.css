@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+.wrap-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+.wrap-1 h1{
+    text-align: left;
+    color: #33a2cc;
+}
+
+
+.nav ul li{list-style-type: none;
+    float: left;
+    line-height: 20px;}
+
+.nav ul li a{text-decoration: none;
+    display: block;
+     padding-right: 40px; 
+     color: #33a2cc;}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.container{
+    border: 1px solid rgb(175, 172, 172);
+    width: 35%;
+    border-radius: 5px;
+    
+}
+
+.container h3{
+    padding: 16px 25px;
+    background-color: #b2b2b2;
+}
+
+.form-field {
+    padding: 10px 20px;
+}
+
+
+
+.field{
+width: 100%;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 8px;
+    
+}
+
+
+input[name='version'] {
+    width: 30%;
+}
+
+.container .footer{
+    padding: 10px 28px;
+    background-color: #b2b2b2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer input[name='submit']{
+    padding: 12px;
+    border-radius: 11px;
+    width: 67px;
+    background-color: #2cd3a7;
+    border: none;
+}

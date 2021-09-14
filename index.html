@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bug Report</title>
+</head>
+<body>
+    <header class="wrap-1">
+        
+         <h1>To The New</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quick Help</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h3>Bug Report</h3>
+            <form>
+                <div class="form-field">
+                <label for="Title">Title:<span style="color: red;">*</span></label>
+                <input type="text" class="field"  name="Title" autofocus>
+            </div>
+            <div class="form-field">
+                <label for="Description">Description:<span style="color: red;">*</span></label>
+                <textarea type="text" class="field"  name="Title" rows="4" autofocus></textarea>
+              </div>
+
+              <div class="form-field">
+                <label for="Operating System">Operating System:<span style="color: red;">*</span></label>
+                <select required class="field" style="background-color: #2cd3a7; color: #fff;">
+                    <option>Windows XP</option>
+                    <option>Ubuntu</option>
+                    <option>MacOs</option>
+                </select>
+                </div>
+
+                <div class="form-field">
+                <label for="Products">Products:<span style="color: red;">*</span></label>
+                <select required class="field" style="background-color: #2cd3a7; color: #fff;">
+                    <option>Test1</option>
+                    <option>Test2</option>
+                    <option>Test3</option>
+                </select>
+               </div>
+
+               <div class="form-field">
+                <label for="Version">Version:<span style="color: red;">*</span></label><br/>
+                <input type="text" class="field" name="version" autofocus><br/>
+                </div>
+
+                <div class="form-field">
+                <label for="License" style="display: block;">License:<span style="color: red;">*</span></label>
+                <input type="radio"  name="gender" required> Free        
+                <input type="radio"  name="gender" required > Business  
+                 
+                     </div>
+
+                     <div class="form-field">
+                <label for="Severity">Severity:<span style="color: red;">*</span></label>
+                <select required class="field" style="background-color: #2cd3a7; color: #fff;">
+                    <option>Test1</option>
+                    <option>Test2</option>
+                    <option>Test3</option>
+                </select>
+                </div>
+
+                <div class="form-field">
+                <label for="Attachments">Attachments:<span style="color: red;">*</span></label><br/>
+                <input type="file" class="field" id="attachments" name="attachments">
+              </div>
+                <div class="footer">
+                  <input type="submit" name="submit" value="Send">
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
+
